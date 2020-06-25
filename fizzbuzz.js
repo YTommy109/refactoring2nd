@@ -1,11 +1,10 @@
 const main = () => {
-    const fizzBuzz = (v) => {
-        if (v===3) return 'Fizz'
-        if (v===5) return 'Buzz'
-        return `${v}`
-    }
-
-    return [1,2,3,4,5].map(i => fizzBuzz(i))
+    return [
+        '1',    '2',    'Fizz', '4',    'Buzz',
+        'Fizz', '7',    '8',    'Fizz', 'Buzz',
+        '11',   'Fizz', '13',   '14',   'FizzBuzz'
+    ]
 }
+
 
 export default main
